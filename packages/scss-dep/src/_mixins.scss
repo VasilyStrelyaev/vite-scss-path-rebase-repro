@@ -1,0 +1,5 @@
+@mixin body-background($img-name: "react") {
+  body {
+    background-image: url("foobar/#{$img-name}.png");
+  }
+}
